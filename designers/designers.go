@@ -1,8 +1,8 @@
 package designers
 
-import "github.com/go-modules-by-example-staging/goinfo/contributors"
+import "github.com/go-modules-by-example-staging//home/gopher/scratchpad/repos/goinfo-maj-lossy/contributors"
 
-func Names() []string {
+func FullNames() []string {
 	var res []string
 	for _, p := range contributors.Details() {
 		switch p.FullName {
